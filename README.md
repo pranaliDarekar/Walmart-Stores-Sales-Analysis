@@ -1,26 +1,25 @@
 # Walmart-Stores-Sales-Analysis
-In the exploratory data analysis of the dataset, we posed several questions aimed at uncovering insights into sales performance, the impact of external factors, and identifying opportunities for forecasting. Here's a summary of the key questions asked:
+In our exploration of the dataset, we crafted a series of questions aimed at uncovering trends, patterns, and correlations within the data. These questions guided our SQL-based exploratory data analysis and set the stage for deeper investigations. The list of questions we addressed includes:
 
-What are the basic characteristics of the dataset?
+1. **Are there missing values in the dataset?**
+   - We initiated our analysis by checking for null or missing values across all columns to ensure the integrity of our dataset and determine if any data preprocessing was necessary.
 
-This included checking for missing values in each column and obtaining summary statistics for numerical fields such as temperature, fuel price, CPI, unemployment rate, and weekly sales.
-How do sales vary by time period?
+2. **What are the summary statistics of the dataset?**
+   - We sought to understand the basic statistical properties of the dataset, including the distribution of weekly sales, temperature, fuel prices, CPI, and unemployment rates.
 
-What is the best and worst month for store sales?
-What is the best and worst quarter for store sales?
-These questions aimed to identify seasonal patterns and peak sales periods.
-Which stores are performing the best and worst in terms of sales growth?
+3. **What is the impact of temperature on sales?**
+   - By categorizing temperatures into different ranges (e.g., Below Freezing, Cold, Mild, Warm, Hot), we analyzed how sales averages varied across these categories to gauge the temperature's influence on consumer behavior.
 
-Which stores recorded the highest annual sales growth?
-Which stores recorded the highest quarterly sales growth?
-This analysis was designed to highlight top-performing stores and potentially investigate the reasons behind their success.
-What is the impact of external factors on sales?
+4. **How do sales vary by month and quarter?**
+   - Identifying the best and worst months and quarters for sales helped us understand seasonal trends and the periods of highest and lowest consumer activity.
 
-How does temperature affect weekly sales?
-What is the impact of CPI and fuel prices on sales?
-By examining the relationship between sales and factors like temperature, CPI, and fuel prices, we sought to understand how external conditions influence sales outcomes.
-Each of these questions facilitated a deeper dive into the dataset, employing SQL queries to aggregate, summarize, and analyze data. The goal was to gain actionable insights, identify patterns, and lay the groundwork for predictive analytics. The exploration underscored the importance of understanding sales dynamics and the potential influence of external variables, setting the stage for more sophisticated analyses and forecasting efforts using advanced statistical methods or machine learning techniques.
+5. **Which stores have shown the highest annual and quarterly sales growth?**
+   - We calculated the sales growth for each store on an annual and quarterly basis to highlight which locations were outperforming others in terms of sales increases, providing insights into regional performance and growth trends.
 
-Here are is the graphical image of the results
-1. Sales Over time
-   
+6. **What are the effects of CPI and fuel prices on sales?**
+   - Similar to the temperature analysis, we proposed examining the influence of economic indicators like CPI and fuel prices on sales by categorizing these variables into ranges and observing the average sales within each category.
+
+7. **How can sales be predicted or forecasted based on the dataset?**
+   - Beyond EDA, we considered the dataset's potential for predictive analytics, discussing the application of linear regression models and time series forecasting techniques to predict future sales based on historical data and external factors.
+
+These questions served as a roadmap for our exploratory data analysis, helping to dissect the dataset from various angles and uncover valuable insights that could inform strategic decision-making and predictive modeling efforts.
