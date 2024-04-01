@@ -23,3 +23,8 @@ In our exploration of the dataset, we crafted a series of questions aimed at unc
    - Beyond EDA, we considered the dataset's potential for predictive analytics, discussing the application of linear regression models and time series forecasting techniques to predict future sales based on historical data and external factors.
 
 These questions served as a roadmap for our exploratory data analysis, helping to dissect the dataset from various angles and uncover valuable insights that could inform strategic decision-making and predictive modeling efforts.
+
+Here are some graphical results of the questions
+1. Sales over time
+   [Sales over time](https://github.com/pranaliDarekar/Walmart-Stores-Sales-Analysis/assets/82031974/9dc240ed-a293-410b-93ea-0bdce3f9179b)
+
